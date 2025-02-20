@@ -73,8 +73,8 @@ function Home() {
                 <br />
                 Beyond imagination
               </h2>
-              <p className="mt-6 text-gray-600 text-lg leading-relaxed font-aqua">
-                Modo learns from your routiens, adapts to your preferences, and delivers personalized schedules that feel magical.
+              <p className="mt-6 text-gray-600 text-lg leading-relaxed">
+                Modo learns from your routines, adapts to your preferences, and delivers personalized schedules that feel magical.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ function Home() {
               <h2 className="text-4xl font-semibold tracking-tight font-aqua">
                 Extraordinary
                 <br />
-                performance.
+                performance
               </h2>
               <p className="mt-6 text-white/80 text-lg leading-relaxed">
                 With the most powerful processing capabilities ever in a consumer device, Modo handles complex tasks with unprecedented speed and efficiency.
@@ -151,7 +151,7 @@ function Home() {
           <h2 className="text-4xl md:text-5xl font-semibold font-aqua">
             Empowering with innovation
           </h2>
-          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto font-aqua">
+          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
             Modo is the first of its kind to blend smart technology and aesthetics for truely powerful routine management
           </p>
           <Link to="/order" className="mt-12 inline-block bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors text-sm">
