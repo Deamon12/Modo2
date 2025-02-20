@@ -47,7 +47,7 @@ function Home() {
           </p>
           <div className="mt-8 flex justify-center gap-6">
             <Link to="/order" className="bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors flex items-center text-sm">
-              Preorder Now <ArrowRight className="ml-2 h-4 w-4" />
+              Join the waitlist <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
@@ -146,13 +146,13 @@ function Home() {
       <section className="py-32 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-semibold">
-            Experience the future today.
+            Empowering healthy routines with innovative designs
           </h2>
           <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
-            TechVision Pro is available for order now, with shipping starting next week.
+            Modo is the first of its kind to blend smart technology and aesthetics for truely powerful routine management
           </p>
           <Link to="/order" className="mt-12 inline-block bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors text-sm">
-            Order Now
+           Join the waitlist
           </Link>
         </div>
       </section>
