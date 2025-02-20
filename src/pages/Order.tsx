@@ -24,7 +24,7 @@ function Order() {
       {/* Order Form */}
       <div className="pt-24 pb-16">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6">
-          <h1 className="text-4xl font-bold mb-8">Order TechVision Pro</h1>
+          <h1 className="text-4xl font-bold mb-8">Order Modo</h1>
           
           <div className="bg-white/5 rounded-2xl p-8 backdrop-blur-sm">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -32,17 +32,17 @@ function Order() {
                 <h2 className="text-2xl font-semibold mb-6">Your Selection</h2>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
-                    <span>TechVision Pro</span>
-                    <span>$999</span>
+                    <span>Modo Device</span>
+                    <span>---</span>
                   </div>
                   <div className="flex justify-between items-center text-white/60">
-                    <span>AppleCare+</span>
-                    <span>$199</span>
+                    <span>Modo+</span>
+                    <span>---</span>
                   </div>
                   <div className="border-t border-white/10 pt-4 mt-4">
                     <div className="flex justify-between items-center font-semibold">
                       <span>Total</span>
-                      <span>$1,198</span>
+                      <span>---</span>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ function Order() {
                 <form className="space-y-4">
                   <div>
                     <label className="block text-sm mb-2">Card Number</label>
-                    <input 
+                    <input disabled
                       type="text" 
                       className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500"
                       placeholder="1234 5678 9012 3456"
@@ -62,7 +62,7 @@ function Order() {
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm mb-2">Expiry Date</label>
-                      <input 
+                      <input disabled
                         type="text" 
                         className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500"
                         placeholder="MM/YY"
@@ -70,7 +70,7 @@ function Order() {
                     </div>
                     <div>
                       <label className="block text-sm mb-2">CVV</label>
-                      <input 
+                      <input disabled
                         type="text" 
                         className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500"
                         placeholder="123"
@@ -78,6 +78,7 @@ function Order() {
                     </div>
                   </div>
                   <button 
+                    disabled
                     type="submit" 
                     className="w-full bg-blue-500 text-white px-6 py-3 rounded-lg mt-6 hover:bg-blue-600 transition-colors"
                   >

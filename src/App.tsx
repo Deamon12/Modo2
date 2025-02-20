@@ -26,9 +26,9 @@ function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden" id="overview">
         <div className="absolute inset-0">
-          <img 
+        <img 
             src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?auto=format&fit=crop&q=80&w=2070"
             alt="Product Hero"
             className="w-full h-full object-cover object-center"
@@ -37,27 +37,24 @@ function Home() {
         </div>
         <div className="relative text-center z-10">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
-            TechVision Pro
+            Modo
           </h1>
           <p className="mt-6 text-xl md:text-2xl text-white/90 font-medium">
-            The most powerful AI companion ever created.
+            The future of healthier routines
           </p>
           <p className="mt-4 text-3xl md:text-4xl text-white/90">
-            From $999
+          
           </p>
           <div className="mt-8 flex justify-center gap-6">
             <Link to="/order" className="bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors flex items-center text-sm">
-              Order Now <ArrowRight className="ml-2 h-4 w-4" />
+              Preorder Now <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            <button className="text-white border border-white/30 px-8 py-3 rounded-full hover:border-white/50 transition-colors text-sm">
-              Learn more
-            </button>
           </div>
         </div>
       </section>
 
       {/* Feature Sections */}
-      <section className="py-32 bg-white text-black">
+      <section className="py-32 bg-white text-black" id="features">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div>
@@ -166,10 +163,10 @@ function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Globe className="h-5 w-5" />
-              <span className="ml-2 text-sm text-white/90">TechVision Pro</span>
+              <span className="ml-2 text-sm text-white/90">Modo</span>
             </div>
             <p className="text-sm text-white/60">
-              © 2025 TechVision Pro. All rights reserved.
+              © 2025 Modo Health. All rights reserved.
             </p>
           </div>
         </div>
