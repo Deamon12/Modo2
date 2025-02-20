@@ -29,7 +29,7 @@ function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden" id="overview">
         <div className="absolute inset-0">
         <img 
-            src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?auto=format&fit=crop&q=80&w=2070"
+            src="/images/hero_screen2.png"
             alt="Product Hero"
             className="w-full h-full object-cover object-center"
           />
