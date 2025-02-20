@@ -14,11 +14,11 @@ function Home() {
               <Globe className="h-5 w-5" />
             </div>
             <div className="hidden md:flex items-center space-x-8 text-sm">
-              <a href="#overview" className="text-white/90 hover:text-white transition-colors">Overview</a>
-              <a href="#features" className="text-white/90 hover:text-white transition-colors">Features</a>
-              <a href="#tech-specs" className="text-white/90 hover:text-white transition-colors">Tech Specs</a>
-              <Link to="/order" className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm hover:bg-blue-600 transition-colors">
-                Buy
+              <a href="#overview" className="text-white/90 hover:text-white transition-colors font-aqua">Overview</a>
+              <a href="#features" className="text-white/90 hover:text-white transition-colors font-aqua">Features</a>
+              <a href="#tech-specs" className="text-white/90 hover:text-white transition-colors font-aqua">Tech Specs</a>
+              <Link to="/order" className="bg-blue-400 text-white px-4 py-1 rounded-full text-sm hover:bg-blue-600 transition-colors font-aqua">
+                Preorder
               </Link>
             </div>
           </div>
@@ -36,20 +36,23 @@ function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/10"></div>
         </div>
         <div className="relative text-center z-10">
-          <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
-            Modo
+          <h1 className="text-6xl md:text-8xl font-bold tracking-tight font-aqua">
+            modo
           </h1>
-          <p className="mt-6 text-xl md:text-2xl text-white/90 font-medium">
-            The future of healthier routines
+          <p className="mt-6 text-xl md:text-2xl text-white/90 font-medium font-aqua">
+            The future of health
           </p>
-          <p className="mt-4 text-3xl md:text-4xl text-white/90">
           
+          {/*
+          <p className="mt-4 text-3xl md:text-4xl text-white/90">
           </p>
           <div className="mt-8 flex justify-center gap-6">
             <Link to="/order" className="bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors flex items-center text-sm">
               Join the waitlist <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
+          */}
+          
         </div>
       </section>
 
@@ -65,13 +68,13 @@ function Home() {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <h2 className="text-4xl font-semibold tracking-tight">
-                Intelligent.
+              <h2 className="text-4xl font-semibold tracking-tight font-aqua" >
+                Intelligent
                 <br />
-                Beyond imagination.
+                Beyond imagination
               </h2>
-              <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-                Powered by our most advanced neural engine ever. TechVision Pro learns from your interactions, adapts to your preferences, and delivers personalized experiences that feel magical.
+              <p className="mt-6 text-gray-600 text-lg leading-relaxed font-aqua">
+                Modo learns from your routiens, adapts to your preferences, and delivers personalized schedules that feel magical.
               </p>
             </div>
           </div>
@@ -82,13 +85,13 @@ function Home() {
         <div className="max-w-[980px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div className="flex flex-col justify-center">
-              <h2 className="text-4xl font-semibold tracking-tight">
+              <h2 className="text-4xl font-semibold tracking-tight font-aqua">
                 Extraordinary
                 <br />
                 performance.
               </h2>
               <p className="mt-6 text-white/80 text-lg leading-relaxed">
-                With the most powerful processing capabilities ever in a consumer device, TechVision Pro handles complex tasks with unprecedented speed and efficiency.
+                With the most powerful processing capabilities ever in a consumer device, Modo handles complex tasks with unprecedented speed and efficiency.
               </p>
             </div>
             <div>
@@ -105,7 +108,7 @@ function Home() {
       {/* Specs Grid */}
       <section className="py-32 bg-white text-black" id="tech-specs">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-semibold text-center mb-16">Tech Specs</h2>
+          <h2 className="text-4xl font-semibold text-center mb-16 font-aqua">Tech Specs</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -118,7 +121,7 @@ function Home() {
               },
               {
                 title: "Battery Life",
-                value: "Up to 12 hours"
+                value: "Up to 12 days"
               },
               {
                 title: "Display",
@@ -145,14 +148,14 @@ function Home() {
       {/* CTA Section */}
       <section className="py-32 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-semibold">
-            Empowering healthy routines with innovative designs
+          <h2 className="text-4xl md:text-5xl font-semibold font-aqua">
+            Empowering with innovation
           </h2>
-          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto font-aqua">
             Modo is the first of its kind to blend smart technology and aesthetics for truely powerful routine management
           </p>
           <Link to="/order" className="mt-12 inline-block bg-white text-black px-8 py-3 rounded-full hover:bg-white/90 transition-colors text-sm">
-           Join the waitlist
+           Preorder now
           </Link>
         </div>
       </section>
@@ -163,9 +166,9 @@ function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Globe className="h-5 w-5" />
-              <span className="ml-2 text-sm text-white/90">Modo</span>
+              <span className="ml-2 text-sm text-white/90 font-aqua">Modo</span>
             </div>
-            <p className="text-sm text-white/60">
+            <p className="text-sm text-white/60 font-aqua">
               © 2025 Modo Health. All rights reserved.
             </p>
           </div>

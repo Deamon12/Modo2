@@ -16,6 +16,7 @@ export default {
         }
       },
       fontFamily: {
+        aqua: ['Aqua', 'sans-serif'], // Custom font for "modo"
         sans: ['Inter var', 'sans-serif'],
       }
     },
