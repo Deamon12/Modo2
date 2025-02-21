@@ -62,13 +62,13 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1535303311164-664fc9ec6532?auto=format&fit=crop&q=80&w=1024"
+                src="/assets/market_screen1.png"
                 alt="AI Processing"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <h2 className="text-4xl font-semibold tracking-tight font-aqua" >
+              <h2 className="text-4xl font-semibold tracking-tight" >
                 Intelligent
                 <br />
                 Beyond imagination
@@ -85,7 +85,7 @@ function Home() {
         <div className="max-w-[980px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div className="flex flex-col justify-center">
-              <h2 className="text-4xl font-semibold tracking-tight font-aqua">
+              <h2 className="text-4xl font-semibold tracking-tight">
                 Extraordinary
                 <br />
                 performance
@@ -148,7 +148,7 @@ function Home() {
       {/* CTA Section */}
       <section className="py-32 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-[980px] mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-semibold font-aqua">
+          <h2 className="text-4xl md:text-5xl font-semibold">
             Empowering with innovation
           </h2>
           <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
